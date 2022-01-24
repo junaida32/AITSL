@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AITSL</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+	 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"> </script>
+	 <link rel="stylesheet" type="text/css" href="custom_style.css">
+</head>
+<body>
+	<!-- Navbar-->
+	<nav class="navbar navbar-expand-md bg-light navbar-light fixed-top"> <!-- fixed-top means stick navbar to top while scrolling-->
+		<div class="container">
+			<a class="navbar-brand" href=""> <img src="images/aitsl_logo.png" class=" w-50"></a>
+			<button
+			class="navbar-toggler"
+			type="button"
+			data-bs-toggle="collapse"
+			data-bs-target="#nav_menu">
+			<span class="navbar-toggler-icon"></span>	
+			</button>
+			<div class="collapse navbar-collapse" id="nav_menu">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link"href="#aboutus"> About Us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link"href="#questions">Questions </a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link"href="#attockgroup"> Attock Group</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link"href="#contactus"> Contact US</a>
+					</li>
+				</ul>
+			</div>
+		</div>	
+	</nav>
+
+	<!-- Show case-->
+	<section class="bg-light text-dark p-5 p-lg-0 pt-lg-5  text-center text-sm-start">  <!-- Start meaning left and end meaning right (left & right aligning ) --> 
+	<div class="container">								<!-- text-sm-start means align text to left on devices greater than sm(smal devices screen)=>576px -->
+		<div class="d-sm-flex align-item-center justify-content-between"> <!--Flex box--> 
+			<div class="pt-5"><h1> Welcome To AITSL <span class="text-warning">Attock Information Technology Services (Private) Limited</span></h1>  <!--Flex contain two flex items Div and img-->
+				
+				<p class="lead my-4">Attock Information Technology Services (Pvt.) Limited (AITSL) is an emerging Information Technology services company</p> 
+				
+				<!--<button class="btn btn-primary btn-lg">Start the Enrollment</btn> -->
+			</div>  
+			<img  class="image-fluid w-50 h-80 d-none d-sm-block" src="images/show2.png"><!--W-50 to set width of item relative to its parent item & image-fluid for --></div>											<!--responsive image (like flex class )d-none d-sm-block mean Hidden only on xs (extra small devices-->
+	</div>		
+	</section>
+
+	<!-- Newsletter -->
+	<section class="bg-primary text-light p-5">
+		<div class="container">
+			<div class="d-md-flex align-item-center justify-content-between">
+				<h3 mb-3 mb-md-0>Signup for Our News letter</h3>
+				<div class="input-group news-input">
+  					<input type="text" class="form-control" placeholder="Enter Your Email">
+  					<span class="btn btn-lg btn-dark">SignUp</span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--boxes -->
+	<section class="p-5">
+		<div class="container " >
+			<div class="row text-center">
+				<div class="col-md">
+					<div class="card bg-dark text-light">
+						<div class="card-body">
+							<div class="h1 mb-3">
+								<i class="bi bi-hdd-rack"></i>
+							</div>
+							<h3 class="card-title mb-3">Data Center</h3>
+							<p class="card-text">We provide services that support the implementation, maintenance, operation, 
+								and enhancement of a data center which is an environment that provides processing, storage,networking,management and the distribution of data within an enterprise </p>
+							<a href="https://en.wikipedia.org/wiki/Data_center_services" class="btn btn-primary" target="_blank">Read More</a>	
+						</div>
+					</div>
+				</div>
+				<div class="col-lg" >
+					<div class="card bg-primary text-light">
+						<div class="card-body">
+							<div class="h1 mb-3">
+								<i class="bi bi-headset"></i>
+							</div>
+							<h3 class="card-title mb-3">Software Support</h3>
+							<p class="card-text">We provide Software support service  that delivers technical product help and 
+							advice to registered users. Although response time and manner will vary depending
+							on the severity of the issue and the obligations mandated within the support contract. </p>
+							<a href="https://en.wikipedia.org/wiki/Technical_support" class="btn btn-warning" target="_blank">Read More</a>	
+						</div>
+					</div>
+				</div>
+				<div class="col-lg">
+					<div class="card bg-secondary text-light">
+						<div class="card-body">
+							<div class="h1 mb-3">
+								<i class="bi bi-hdd-network-fill"></i>
+							</div>
+							<h3 class="card-title mb-3">Networking</h3>
+							<p class="card-text">We provide Networking service that enables the network to perform
+							 more than basic functions. Some examples of networking services include 
+							NTP, DNS, DHCP, VoIP, File and Directory, Hardware Sharing, Email, and Website Hosting </p>
+							<a href="https://en.wikipedia.org/wiki/Network_service" class="btn btn-dark" target="_blank">Read More</a>	
+						</div>
+					</div>
+				</div>			
+			</div>
+		</div>
+	</section>
+
+    <!-- About Us Section -->
+    <section id="aboutus" class="p-5">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md p-5">
+            <h2>About Us</h2>
+            <p>
+              AITSL is part of Pharaon Group also known as Attock group.
+              AITSL is an emerging Information Technology services company. It is assisting the Attock Group Companies in adapting to and implementing Supervisory Control and Data Acquisition, SCADA, Plant Automation, Oil Movement & Storage Solution, Remote Well Head, Pipeline Management and Monitoring as well as other technology intensive solutions. AITSL has been catering to the demands of IT related outsourcing, centralization of IT operations and services, design and implementation of Local and Wide Area Networks, Wireless Connectivity, Supervising ERP Implementation and CCTV based security solutions. Attock Information Technology Services (Pvt.) Limited (AITSL) was incorporated on October 27, 2000 as a Private Limited Company to setup basic infrastructure, communication systems and computer installation and provision of IT related services.
+            </p>
+            <a href="#" class="btn btn-primary collapsed mt-3" target="_blank">
+              <i class="bi bi-chevron-right"></i> Read More
+            </a>
+          </div>
+           <div class="col-md">
+            <img src="images/data_center.png" class="img-fluid" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="aboutus" class="p-5">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+            <img src="images/pharon_group.jpg" class="img-fluid" alt="" />
+          </div>
+          <div class="col-md p-5">
+            <h2>Pharaon Group</h2>
+            <p class="">
+              Pharaon Group is engaged internationally in diversified entrepreneurial activities, including Hotels, Oil Exploration, Production, Refining, Manufacturing of Petroleum Products, Chemicals, Manufacturing and Trading of Cement, Real Estate etc. Pharaon Group is not only an international investor but have also made very substantial investments in Pakistan over the past several years. Pharaon Group’s companies are professionally run and managed by competent, motivated and committed teams of highly skilled and experienced managerial and technical personnel at all levels
+            </p>
+            <a href="https://en.wikipedia.org/wiki/Ghaith_Pharaon" class="btn btn-primary mt-3" target="_blank">
+              <i class="bi bi-chevron-right"></i> Read More
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="questions" class="p-5">  <!-- Accordian Question-->
+    	<div class="container">
+    		<h2 class="text-center m-4">Frequently Ask Questions</h2>
+    		<div class="accordion accordion-flush">
+				<div class="accordion-item">
+				    <h2 class="accordion-header">
+				      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-one" >
+				        Accordion Item #1
+				      </button>
+				    </h2>
+				    <div id="question-one" class="accordion-collapse collapse"  data-bs-parent="#questions">
+				      <div class="accordion-body">Now in the Ajax web app flow, you have a web page and it also makes an HTTP request. And that is usually sent by JavaScript, and that HTTP request is sent by JavaScript. And the server also replies, and its response is a small piece of data that's inserted, usually, into a current page, and the only thing that changes is some minor piece of data.</div>
+				    </div>
+				</div>
+
+				<div class="accordion-item">
+				    <h2 class="accordion-header" id="flush-headingTwo">
+				      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-two">
+				        Accordion Item #2
+				      </button>
+				    </h2>
+				    <div id="question-two" class="accordion-collapse collapse" data-bs-parent="#questions">
+				      <div class="accordion-body">Well synchronous execution is execution of one programming instruction at a time. What that means is that you can't start execution of another instruction until the first instruction has finished its execution.</div>
+				    </div>
+				</div>
+
+				<div class="accordion-item">
+				    <h2 class="accordion-header" id="flush-headingThree">
+				      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-three">
+				        Accordion Item #3
+				      </button>
+				    </h2>
+				    <div id="question-three" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#questions">
+				      <div class="accordion-body">On the other hand, on the asynchronous execution, what that means is that it's execution of more than one programming instruction at a time. Asynchronous instruction returns right away. It sends off its instruction and it's ready to execute the next one right away. And the actual execution of that asynchronous instruction is really done in a separate thread process.</div>
+				    </div>
+				</div>
+			</div>			    		
+    	</div>
+    </section>
+
+<!-- Attock group Section--> 
+    <section id="attockgroup" class="bg-primary p-5 mt-5">
+    	<div class="container">
+    		<h1 class="text-center text-white">Attock Group of Companies</h1>
+    		<p class="lead text-center text-white mb-5">Attock Group is fully integrated group covering all aspects of the Oil and Gas sector of Pakistan </p>
+    		<div class="row">
+    			<div class="col-md-6 col-lg-3">
+    				<div class="card bg-light">
+    					<div class="card-body text-center">
+    						<img src="images/pol.png"
+                  			 class="rounded-circle mb-3" width="80" height="80">
+                  			 <h3 class="card-title"> POL</h3>
+                  			 <p class="card-text">Pakistan Oilfields Limited (POL) is a leading oil and gas exploration and production company.The Company's focus is to deliver performance through excellence in the field of exploration and drilling crude oil and gas. POL has been investing independently and joint venture</p>
+                  			 <a href=""><i class="bi bi-facebook"></i></a>
+                  			 <a href=""><i class="bi bi-twitter"></i></a>
+                  			 <a href=""><i class="bi bi-linkedin"></i></a>
+                  			 <a href=""><i class="bi bi-instagram"></i></a>
+    					</div>
+    				</div>
+    			</div>
+
+    			<div class="col-md-6 col-lg-3">
+    				<div class="card bg-light">
+    					<div class="card-body text-center">
+    						<img src="images/apl.png"
+                  			 class="rounded-circle mb-3" width="80" height="80">
+                  			 <h3 class="card-title"> APL</h3>
+                  			 <p class="card-text">Attock Petroleum Limited (APL) is the 4th Oil Marketing Company in Pakistan start operations in February 1998 APL is the only oil marketing company in Pakistan belonging to a fully integrated group covering all aspects of the Oil and Gas sector of Pakistan.............</p>
+                  			 <a href=""><i class="bi bi-facebook"></i></a>
+                  			 <a href=""><i class="bi bi-twitter"></i></a>
+                  			 <a href=""><i class="bi bi-linkedin"></i></a>
+                  			 <a href=""><i class="bi bi-instagram"></i></a>
+    					</div>
+    				</div>
+    			</div>
+
+    			<div class="col-md-6 col-lg-3">
+    				<div class="card bg-light">
+    					<div class="card-body text-center">
+    						<img src="images/acpl.jpg"
+                  			 class="rounded-circle mb-3" width="80" height="80">
+                  			 <h3 class="card-title"> ACPL</h3>
+                  			 <p class="card-text">Attock Cement Pakistan Limited (ACPL) was established in 1981 with initial capital of Rs1.5billion including foreign exchange component of $45million.The company started commercial production in 1988 with a plant capacity of 2000tons per day of clinker.</p>
+                  			 <a href=""><i class="bi bi-facebook"></i></a>
+                  			 <a href=""><i class="bi bi-twitter"></i></a>
+                  			 <a href=""><i class="bi bi-linkedin"></i></a>
+                  			 <a href=""><i class="bi bi-instagram"></i></a>
+    					</div>
+    				</div>
+    			</div>
+
+    			<div class="col-md-6 col-lg-3">
+    				<div class="card bg-light">
+    					<div class="card-body text-center">
+    						<img src="images/arl.png"
+                  			 class="rounded-circle mb-3" width="80" height="80">
+                  			 <h3 class="card-title">ARL</h3>
+                  			 <p class="card-text"> Attock Refinery Limited (ARL) was incorporated as a Private Limited Company in November,1978 to take over the business of the Attock Oil Company Limited(AOC)relating to refining of crude oil and supplying of refined petroleum products.and is listed on Pakistan Stock.
+                  			 </p>
+                  			 <a href=""><i class="bi bi-facebook"></i></a>
+                  			 <a href=""><i class="bi bi-twitter"></i></a>
+                  			 <a href=""><i class="bi bi-linkedin"></i></a>
+                  			 <a href=""><i class="bi bi-instagram"></i></a>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+    <section id="contactus" class="p-5">
+    	<div class="row">
+    		<div class="col-md">
+    			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d415.6071693340584!2d73.0830402922925!3d33.557082329990905
+    			!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df932b9382463b%3A0x670fff166a3b2fd6!2sAttock%20IT!
+    			5e0!3m2!1sen!2s!4v1642654944484!5m2!1sen!2s"  width="850" height="450" style="border:0.5px whitesmoke;"  ></iframe>
+    		</div>
+    		<div class="col-md text-center ">
+    			 <h2 class="pb-3"> Contact Info</h2>
+    			 <ul class="list-group ">
+    			 	<li class="list-group-item "> <i class="bi bi-envelope-fill " style="font-size:xx-large"> 
+    			 	 </i><h6 class="pt-3"> jafrt43d@gmail.com </h6> </li>
+    			 </ul>
+    			 <ul class="list-group">
+    			 	<li class="list-group-item "> <i class="bi bi-telephone" style="font-size:xx-large ;"> 
+    			 	 </i><h6 class="pt-3">051 4562398 </h6> </li>
+    			 </ul>
+    			 <ul class="list-group">
+    			 	<li class="list-group-item "> <i class="bi bi-geo-alt-fill" style="font-size:xx-large ;"> 
+    			 	 </i><h6 class="pt-3"> Banglow 29 ARL coloney Morgah RWP </h6> </li>
+    			 </ul>
+    		</div>
+    	</div>
+    </section>
+
+    <footer class="p-5 bg-dark text-center text-white position-relative">
+    	<div class="container">
+    		<p class="">Copyright &copy; 2022 AITSL</p>
+    	</div>
+    	
+    </footer>
+</body>
+</html>	
