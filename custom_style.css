@@ -1,0 +1,36 @@
+@media(min-width: 768px){
+	.news-input{
+		width: 50%;
+	}
+}
+
+/* To adjust the height problem but currently problem is not solved */
+@media(max-width: 1450px) and (min-width: 990px){ 
+.height_solution{
+min-height: 570px;
+
+}}
+
+.bg-green{
+	background-color: RGB(17, 54, 34);
+}
+
+.w-40 {
+  width: 40% !important;
+}
+
+.btn-custom {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+.btn-custom:hover {
+  color: #fff;
+  background-color: #5c636a;
+  border-color: #565e64;
+}
+.btn-check:focus + .btn-custom, .btn-:focus {
+  color: #fff;
+  background-color: #5c636a;
+  border-color: #565e64;
+  box-shadow: 0 0 0 0.25rem rgba(130, 138, 145, 0.5);
